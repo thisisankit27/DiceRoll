@@ -1,7 +1,10 @@
+.hidden{
+  visibility: hidden;
+  position: absolute;
+}
 .container-fluid {
   width: 70%;
   margin: auto;
-  margin-top: 60px;
   text-align: center;
 }
 
@@ -35,7 +38,11 @@ p {
 }
 
 img {
-  width: 45%;
+  width: 40%;
+}
+
+.gif{
+  width: 40%;
 }
 
 @media (max-width: 800px){
