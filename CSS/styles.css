@@ -23,7 +23,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 5rem;
+  font-size: 8rem;
   color: #4ECCA3;
 }
 
@@ -35,6 +35,7 @@ p {
 
 .button{
   margin-top: 40px;
+  font-size: 3rem;
 }
 
 .dice-img {
@@ -42,12 +43,20 @@ p {
 }
 
 .gif{
-  width: 40%;
+  width: 50%;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
+  h1{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
+  }
   .dice-img {
-    width: 30%;
+    text-align: center;
+    width: 50%;
   }
   .gif{
     width: 90%;
