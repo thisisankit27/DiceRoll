@@ -37,7 +37,7 @@ p {
   margin-top: 40px;
 }
 
-img {
+.dice-img {
   width: 40%;
 }
 
@@ -45,12 +45,12 @@ img {
   width: 40%;
 }
 
-@media (max-width: 800px){
-  img {
-    width: 35%;
+@media (max-width: 900px){
+  .dice-img {
+    width: 30%;
   }
-  .button{
-    margin-top: 90px;
+  .gif{
+    width: 90%;
   }
 }
 
